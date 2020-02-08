@@ -25,7 +25,7 @@ func main() {
 como inicializar um programa com go module
 
 ```shell script
-go mod init github.com/mmfg/classes
+go mod init github.com/mlfg/golernen
 ``` 
 
 ##Comandos linux
@@ -60,4 +60,44 @@ como mover um arquivo
 mv main.go dirname/subpasta/
 ```
 
+##Comandos Git
 
+Como saber que arquivo foi alterado ou adicionado a minha pasta?
+
+comando: ***git status***
+
+```shell script
+git status
+```
+
+como ver a modificação de um arquivo?
+comando:***git diff*** ou ***gitk***
+````shell script
+git diff <nome do arquvo>
+ex.:
+git diff README.md
+````
+
+Como adicionar o arquivo para ser salvo?
+
+comando: ***git add***
+
+```shell script
+git add <caminho_do_arquivo>
+ex.:
+git add aula1/divide.go
+```
+
+Como salvar o arquivo adicionado com o git add?
+
+comando: ***git commit -s -m "mensagem do commit"***
+
+```shell script
+git commit -s -m "adiciona funcao para calcular raiz quadrada"
+```
+
+como enviar as mudanças salvas para os servidores do git-hub?
+
+```shell script
+git push origin master
+```
