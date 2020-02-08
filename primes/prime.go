@@ -1,27 +1,10 @@
-package main
+package primes
 
 import (
-	"fmt"
 	"math"
-	"time"
 )
-func main () {
-	T1 := time.Now()
-	printPrime1(10000)
-	T2 := time.Now()
 
-	T3 := time.Now()
-	printPrime2(10000)
-	T4 := time.Now()
-
-	elapsed1 := T2.Sub(T1)
-	elapsed2 := T4.Sub(T3)
-
-	fmt.Println(elapsed1.Milliseconds())
-	fmt.Println(elapsed2.Milliseconds())
-}
-
-func printPrime1 (size int) {
+func PrintPrime1 (size int) {
 	primes := make(map[int]int)
 	j := 0
 
@@ -38,7 +21,7 @@ func printPrime1 (size int) {
 	//}
 }
 
-func printPrime2 (size int) {
+func PrintPrime2 (size int) {
 	primes := make(map[int]int)
 	j := 0
 
