@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/mmfg/classes/aula1"
-	"github.com/mmfg/classes/aula2"
+	"github.com/mlfg/golernen/aula1"
+	"github.com/mlfg/golernen/aula2"
 )
 
 func main() {

@@ -1,3 +1,3 @@
-module github.com/mmfg/classes
+module github.com/mlfg/golernen
 
 go 1.13
