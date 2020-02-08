@@ -20,7 +20,7 @@ func main() {
 }
 ```
 
-##Comandos go
+## Comandos go
 
 como inicializar um programa com go module
 
@@ -28,7 +28,7 @@ como inicializar um programa com go module
 go mod init github.com/mlfg/golernen
 ``` 
 
-##Comandos linux
+## Comandos linux
 
 listar arquivos 
 
@@ -60,7 +60,7 @@ como mover um arquivo
 mv main.go dirname/subpasta/
 ```
 
-##Comandos Git
+## Comandos Git
 
 Como saber que arquivo foi alterado ou adicionado a minha pasta?
 
