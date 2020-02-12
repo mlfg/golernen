@@ -101,3 +101,12 @@ como enviar as mudanças salvas para os servidores do git-hub?
 ```shell script
 git push origin master
 ```
+## Funções e arquivos de teste
+
+como criarum arquivo de teste?
+```shell script
+o nome da "bagagem" e test.go no final
+
+dica: para cada teste fazer uma nova função
+```
+

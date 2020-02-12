@@ -45,5 +45,5 @@ func printDivResult (){
 
 func printFahrenheit (){
 	fmt.Println(aula2.Ftoc(32))
-	fmt.Println(math.Round(aula2.Ftoc(73) * 100) / 100)
+	fmt.Println(math.Round(aula2.Ftoc(100)))
 }
