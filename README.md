@@ -104,9 +104,15 @@ git push origin master
 ## Funções e arquivos de teste
 
 como criarum arquivo de teste?
-```shell script
-o nome da "bagagem" e test.go no final
+o nome do arquivo a ser testado mais "_test.go" 
+no final do nome do arvquivo
 
-dica: para cada teste fazer uma nova função
+exemplo:
+
+```shell script
+divide.go
+# arquivo de teste deveria ser
+divide_test.go
 ```
+dica: para cada teste fazer uma nova função
 
